@@ -1,0 +1,45 @@
+what is devops?
+DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops). 
+It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. 
+DevOps focuses on automation, collaboration, and communication between software developers and IT professionals. 
+The goal is to enable faster delivery of features, higher quality, and more reliable releases, and to improve the flow of work between development, testing, and deployment.
+
+
+
+what is Automation.
+Automation refers to the use of tools and technologies to perform tasks that would otherwise be done manually. Automation can help improve efficiency, reduce errors, and speed up the delivery process. Some examples of tasks that can be automated in a DevOps workflow include:
+*Building and testing code
+*Deploying code to different environments (e.g. development, staging, production)
+*Provisioning and configuring infrastructure (e.g. servers, databases)
+*Monitoring and alerting
+By automating these tasks, teams can focus on more high-value activities such as writing and debugging code, rather than spending time on manual, repetitive tasks. Automation can also help ensure that processes are consistent and repeatable, which can improve the reliability and stability of the systems being developed and maintained.
+
+
+
+what is scalling
+Scaling refers to the ability of a system to handle an increasing amount of work or load. In the context of DevOps, scaling can refer to both horizontal scaling (also known as "scale out"), which involves adding more resources (e.g. servers, instances) to a system to increase capacity, and vertical scaling (also known as "scale up"), which involves using more powerful resources to handle the additional load.
+
+Scaling is an important consideration in DevOps because it allows teams to meet the demands of their users and customers. For example, if a web application experiences a sudden surge in traffic, the team may need to scale up their infrastructure to ensure that the application can handle the increased load and continue to perform well.
+
+Automation can play a role in scaling, as it can make it easier to quickly provision and configure additional resources as needed. In addition, teams can use monitoring and alerting tools to track the performance of their systems and trigger automated responses to scale up or down as needed.
+
+
+what is Infrastructure?
+In the context of DevOps, infrastructure refers to the underlying hardware, software, and networks that are used to support the development, testing, and deployment of applications. This can include physical servers, virtual machines, containers, storage systems, networks, and other resources that are needed to run an application.
+
+Infrastructure is an important consideration in DevOps because it can impact the speed and reliability of the development and deployment process. By automating the provisioning and configuration of infrastructure, teams can more easily and quickly set up the resources they need to build and deploy their applications. This can allow them to iterate more quickly and release new features and updates more frequently.
+
+
+why devops is important?
+There are several reasons why DevOps is important:
+
+*Improved efficiency: By automating tasks and integrating the workflows of development and operations, DevOps can help teams work more efficiently and reduce the time it takes to deliver new features and updates.
+
+*Increased speed: DevOps practices can help teams release new features and updates more quickly, which can be especially important in fast-paced industries where being able to quickly respond to changing customer needs is key.
+
+*Higher quality: By integrating testing and deployment into the development process, DevOps can help teams catch and fix issues earlier in the development cycle, which can lead to higher quality software.
+
+*Improved collaboration: DevOps encourages collaboration between development and operations teams, which can help teams work together more effectively and improve communication.
+
+*Increased customer satisfaction: By releasing new features and updates more quickly and with higher quality, DevOps can help teams better meet the needs of their customers and improve customer satisfaction.
+
