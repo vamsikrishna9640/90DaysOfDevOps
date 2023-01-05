@@ -1,0 +1,35 @@
+1) what is Shell Scripting for DevOps.
+Shell scripting is a method of automating tasks in the Unix shell, a command-line interface for interacting with an operating system. It involves writing a series of commands in a script file that can be executed all at once, rather than having to enter each command individually at the command prompt.
+Shell scripts are often used in the context of DevOps, a software development approach that emphasizes collaboration and communication between software developers and IT professionals. In DevOps, shell scripts can be used to automate a variety of tasks related to the development, testing, and deployment of software.
+Here are a few examples of how shell scripts might be used in DevOps:
+*Automating the building and testing of software: A shell script could be used to compile the code, run unit tests, and package the software for deployment.
+*Deploying software to production servers: A shell script could be used to copy the packaged software to the servers, configure the servers, and start the software.
+*Monitoring the health of production servers: A shell script could be used to run regular checks on the servers to ensure they are functioning correctly, and to send notifications if any issues are detected.
+*Backing up data: A shell script could be used to automate the process of creating backups of important data on a regular basis.
+Overall, shell scripting is a powerful tool for automating tasks in a consistent and repeatable way, which is particularly useful in the context of DevOps where there is a need to rapidly and reliably deliver software updates.
+
+2) What is #!/bin/bash? can we write #!/bin/sh as well?
+#!/bin/bash is the shebang line at the top of a Bash script. It specifies the interpreter to be used for the script.
+Yes, we can also write #!/bin/sh as the shebang line, which specifies the Bourne shell interpreter to be used for the script.
+3) Write a Shell Script to take user input, input from arguments and print the variables
+#!/bin/bash
+echo "my name is $1 and i am $2 years old"
+
+4) Write a Shell Script which prints I will complete #90DaysOofDevOps challenge
+#!/bin/bash
+echo "I will complete #90DaysOofDevOps challenge"
+5) Write an Example of If else in Shell Scripting by comparing 2 numbers
+#!/bin/bash
+
+echo "enter a value:"
+read num1
+
+echo "enter a value:"
+read num2
+
+if [ $num1 -gt $num2 ]
+then
+echo "$num1 is greater than $num2"
+else
+echo "$num1 is not greater than $num2"
+fi
